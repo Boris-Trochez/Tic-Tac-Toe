@@ -1,0 +1,10 @@
+.game__box {
+  width: 100px;
+  height: 100px;
+  outline: solid black;
+  background-color: burlywood;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
