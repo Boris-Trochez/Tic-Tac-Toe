@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./styles/Information.scss";
+
 const Information = () => {
   return (
     <React.Fragment>

@@ -78,7 +78,8 @@ const Box = (props) => {
         {stateBox8.state && <Figure figure={stateBox8} />}
       </button>
       <button className="game__box" value="9" onClick={handleClick}>
-        {stateBox9.state && <Figure figure={stateBox9} />}
+        {/* {stateBox9.state && <Figure figure={stateBox9} />} */}
+        <Figure figure={stateBox9} />
       </button>
     </React.Fragment>
   );

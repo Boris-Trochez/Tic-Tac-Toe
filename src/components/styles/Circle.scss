@@ -1,18 +1,20 @@
 .circle {
-  width: 80%;
-  height: 70%;
+  animation: appearingCircle 0.3s;
   border-radius: 120px;
-  border: transparent;
-  border: solid green 10px;
+  border: solid rgba(25, 209, 255, 0.788) 10px;
+  height: 70%;
+  transform: rotate(360deg);
   opacity: 1;
-  animation: appearing 0.5s;
+  width: 80%;
 }
 
-@keyframes appearing {
+@keyframes appearingCircle {
   0% {
+    transform: rotate(0deg);
     opacity: 0;
   }
   100% {
+    transform: rotate(360deg);
     opacity: 1;
   }
 }

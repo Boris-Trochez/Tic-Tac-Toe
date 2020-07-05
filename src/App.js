@@ -2,13 +2,13 @@ import React from "react";
 
 import Game from "./components/Game";
 
-import "./App.css";
+import "./components/styles/App.scss";
 
 const App = () => {
   return (
-    <React.Fragment>
+    <div className="main-container">
       <Game />
-    </React.Fragment>
+    </div>
   );
 };
 

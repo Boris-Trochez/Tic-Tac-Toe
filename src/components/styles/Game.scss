@@ -1,15 +1,14 @@
 .container {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
-  margin-top: 25%;
+  height: inherit;
+  justify-content: space-between;
 }
 
 .game__screen {
-  width: 300px;
-  min-height: 300px;
-  background-color: blue;
   display: flex;
   flex-wrap: wrap;
+  min-height: 300px;
+  width: 300px;
 }
