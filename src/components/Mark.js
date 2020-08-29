@@ -3,8 +3,8 @@ import React from "react";
 import Circle from "./Circle";
 import X from "./X";
 
-const Figure = ({ figure: { picture } }) => {
-  if (picture === "o") {
+const Figure = ({ mark }) => {
+  if (mark === "o") {
     return <Circle />;
   } else {
     return <X />;

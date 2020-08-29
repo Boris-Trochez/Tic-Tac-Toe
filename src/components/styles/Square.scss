@@ -1,10 +1,11 @@
-.game__box {
+.game__square {
   align-items: center;
   background-color: rgba(218, 105, 0, 0.13);
   display: flex;
-  flex-grow: 1;
+  //flex-grow: 1;
   height: 100px;
   justify-content: center;
-  outline: solid black;
+  outline: grey solid;
+  border: none;
   width: 100px;
 }
