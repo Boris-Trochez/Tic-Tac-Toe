@@ -1,14 +1,13 @@
 const gameReducer = (state, action) => {
-  const { id } = action.payload;
-  const { mark } = action.payload;
-
   switch (action.type) {
     case "squareActivated":
       return state.map((square) =>
-        square.id === id ? { ...square, activate: true, mark: mark } : square
+        square.id === action.payload.id
+          ? { ...square, activate: true, mark: action.payload.mark }
+          : square
       );
     case "win":
-      return;
+      return console.log("You Win!");
     case "gameOver":
       return;
     default:
